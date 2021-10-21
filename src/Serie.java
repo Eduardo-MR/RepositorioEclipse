@@ -4,6 +4,7 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 import javax.swing.JLabel;
+
 import java.awt.Font;
 import javax.swing.JTextField;
 import javax.swing.JTextArea;
@@ -77,6 +78,7 @@ public class Serie extends JFrame {
 		        
 				int Tamano = Integer.parseInt(txtTamanoSerie.getText());
 				
+				
 		        while(i< Tamano){
 		            if(i <=1){
 		                Siguiente = i;
@@ -89,6 +91,7 @@ public class Serie extends JFrame {
 		            txtAResultado.append(Siguiente +" ,");
 		            i++;
 		        }
+		        
 				
 			}
 		});
