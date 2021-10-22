@@ -1,3 +1,4 @@
+package Serie;
 import java.awt.EventQueue;
 
 import javax.swing.JFrame;
